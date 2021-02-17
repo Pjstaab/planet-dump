@@ -44,4 +44,4 @@ if [ $CLOUDPROVIDER == "gcp" ]; then
 	gsutil cp -a public-read $stateFile $GCP_STORAGE_BUCKET/planet/$stateFile
 fi
 
-sleep 360000
+sleep 3m
